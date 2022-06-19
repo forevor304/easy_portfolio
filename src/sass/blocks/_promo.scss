@@ -6,11 +6,13 @@
    &__title{
        width: 605px;
        margin-top: 10px;
+       color: #fff;
    }
    &__subtitle{
        position: relative;
        padding-left: 10px;
        z-index: 2;
+       color: #fff;
        @include before_circle;
    }
    &__btns{
@@ -22,12 +24,13 @@
        
    }
    &__link{
-       color: #000;
-       font-weight: bold;
-       &:hover{
-           color: #000;
-           text-decoration: none;
-       }
+        display: inline-block;
+        color: #fff;
+        font-weight: bold;
+        &:hover{
+            color: #fff;
+            text-decoration: none;
+        }
    }
 }
 

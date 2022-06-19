@@ -1,0 +1,26 @@
+.policy{
+    &__wrapper{
+        margin: 20px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    &__title{
+        margin: 20px 0 10px 0;        
+        color: #070707;
+    }
+    &__descr{
+        font-size: 1.2rem;
+        color: rgba(12,18,28,.6);
+    }
+    &__item{
+        line-height: 1.5;
+        margin-left: 3.5rem;
+    }
+    &__arrow{
+        position: fixed;
+        top: 50vh;
+        left: 5vh;
+        width: 80px;
+        height: 80px;
+    }
+}

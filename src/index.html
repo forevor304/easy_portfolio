@@ -127,11 +127,11 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about"> 
         <div class="container">
             <div class="about__wrapper">
                 <div class="about__photo">
-                    <img src="img/myface.jpg" alt="photo" >
+                    <img src="img/main_face.jpeg" alt="photo" >
                 </div>  
                 <div class="about__descr">
                     <h2 class="title title_fz16 about__title">
@@ -166,17 +166,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="about__skills-item">
-                        <div class="about__skills-circle">
-                            <img src="icons/about_me/design.svg" alt="design">
-                        </div>
-                        <div>
-                            <div class="title title_fz14">UI/UX Design</div>
-                            <div class="about__skills-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -187,7 +176,7 @@
             <h2 class="title title_fz16 title__section-title">
                 Опыт
             </h2>
-            <div class="title title__fz36 title__section-subtitle">
+            <div class="title title__fz36 title__section-subtitle resume__subtitle">
                 Чем я буду полезен
             </div>
             <div class="divider"></div>
@@ -203,7 +192,7 @@
                                         <img src="icons/experience/university.svg" alt="university">
                                     </div>
                                     <h4 class="title title_fz14">СПБГУТ им. М. А. Бонч-Бруевича</h4>
-                                    <div class="resume__item-location">Баклавриат | Санкт-Петербург (2019-2023)</div>
+                                    <div class="resume__item-location">Баклавриат</div>
                                 </div>
                                 <div class="resume__item-body">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
@@ -262,10 +251,12 @@
             </div>
         </div>
     </section>
+
     <section class="skills">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Навыки</h2>
-            <div class="title title_fz36 title__section-subtitle">Что я использую в работе</div>
+            <div class="title title_fz36 title__section-subtitle
+            skills__subtitle">Что я использую в работе</div>
             <div class="divider"></div>
 
             <div class="skills__items">
@@ -360,6 +351,96 @@
             </div>
         </div>
     </section>
+
+    <!-- <section class="price-list">
+        <div class="container">
+            <h2 class="title title_fz16 title__section-title">Прайс-лист</h2>
+            <div class="divider"></div>
+
+
+            <div class="price-list__cost">
+                <div class="price-list__cost-item">
+                    <div class="title title_fz14 price-list__cost-title">Landing-page</div>
+                    <div class="price-list__cost-servise">от 8000 руб.</div>
+                    <div class="price-list__cost-descr">
+                        Одностраничный сайт для презентации услуг/товаров/...
+                    </div>
+                </div>
+                <div class="price-list__cost-item">
+                    <div class="title title_fz14 price-list__cost-title">Корпоративный сайт</div>
+                    <div class="price-list__cost-servise">от 13000 руб.</div>
+                    <div class="price-list__cost-descr">
+                        Сайт для вашего бизнеса или компании
+                    </div>
+                </div>
+                <div class="price-list__cost-item">
+                    <div class="title title_fz14 price-list__cost-title">Интернет-магазин</div>
+                    <div class="price-list__cost-servise">от 16000 руб.</div>
+                    <div class="price-list__cost-descr">
+                        Инструмент для ваших продаж в сети
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section> -->
+
+    <!-- <section class="contacts">
+        <div class="conteiner">
+            <div class="contacts__wrapper">
+                <div class="contacts__photo">
+                    <img src="img/myface.jpg" alt="photo" >
+                </div>
+                <div class="contacts__descr">
+                    <h2 class="title title_fz16 contacts__title">
+                        Контакты
+                    </h2>
+                    <div class="title title_fz36 contacts__subtitle">Свяжитесь со мной</div>
+                    <div class="divider"></div>
+
+                    <div class="title title_fz14 contacts__text">Любым удобным для вас способом:</div>
+
+                    <div class="contacts__social">
+                        <a href="#" class="contacts__link">
+                            <img src="icons/social/facebook_straight.svg" alt="instagram">
+                        </a>
+                        <a href="#" class="contacts__link">
+                            <img src="icons/social/instagram_straight.svg" alt="github">
+                        </a>
+                        <a href="#" class="contacts__link">
+                            <img src="icons/social/telegram.svg" alt="telegram">
+                        </a>
+                    </div>
+
+                    <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сам вам напишу:</div>
+
+                    <form action="#" class="contacts__form">
+                        <div class="contacts__input">
+                            <input required name="name" id="name" type="text">
+                            <label  for="name">Ваше имя</label>
+                        </div>
+                        <div class="contacts__input">
+                            <input required name="email" id="email" type="email">
+                            <label  for="email">Ваша почта</label>
+                        </div>
+                        <div class="contacts__textarea">
+                            <textarea name="text" id="text"></textarea>
+                            <label for="text">Ваше сообщение</label>
+                        </div>
+
+                        <div class="contacts__triggers">
+                            <button class="btn contacts__btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>Я согласен(а) <a href="/policy.html">с политикой конфиденциальности</a> </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>  -->
+
     <script src="js/script.js"></script>
 </body>
 </html>
