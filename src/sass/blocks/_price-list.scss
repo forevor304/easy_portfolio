@@ -1,18 +1,20 @@
 .price-list{
     padding-top: 120px;
     &__cost{
-        padding-top: 60px;
+        margin-top: 60px;
+        padding: 0 60px;
         display: grid;
-        grid-template: repeat(3, minmax(70px, auto)) / repeat(2, 350px);
-        column-gap: 300px;
+        grid-template: repeat(3, minmax(45px, auto)) / repeat(2, 365px);
+        grid-auto-rows: minmax(45px, auto);
         row-gap: 15px;
-        justify-content: center;
+        justify-content: space-between;
         &-item{
             display: grid;
             grid-template: minmax(21px, auto) 15px / repeat(2, minmax(150px , auto));
             row-gap: 5px;
             justify-content: space-between;
             align-content: center;
+            padding-left: 25px;
         }
         &-title{
             position: relative;

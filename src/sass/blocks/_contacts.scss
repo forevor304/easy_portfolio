@@ -4,7 +4,8 @@
         padding: 0 35px 0 52px;
         display: grid;
         grid-template-columns: 455px 585px;
-        justify-content: space-around;
+        justify-content: center;
+        grid-gap: 50px;
     }
     &__photo{
         img{
